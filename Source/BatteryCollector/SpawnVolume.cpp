@@ -18,8 +18,8 @@ ASpawnVolume::ASpawnVolume()
 	RootComponent = WhereToSpawn;
 
 	// set spawn delay range
-	SpawnDelayRangeLow = 1.0f;
-	SpawnDelayRangeHigh = 4.5f;
+	SpawnDelayRangeLow = 0.2f;
+	SpawnDelayRangeHigh = 2.0f;
 }
 
 // Called when the game starts or when spawned
